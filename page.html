@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bground">
+    <div id="containerBg" class="card">
+        <h1 id="bike" class="text-center">Motorbike Color Changer</h1>
+        <img class="w-95 h-95" src="image/motor.png" alt="" id="motor">
+        <div id="gene">
+            <table>
+                <h5 id="random">Generate Random Color</h5>
+                <button type="button" onclick="changeColor()" id="generate" class="btn btn-success w-20 h-20" >Generate</button>
+            </table>
+        </div>
+        <div id="container1">
+            <table>
+                <h5 id="specific">Generate Specific Color</h5>
+                <select id="option">
+                    <option id="primary-colors" value="1">Blue</option>
+                    <option id="primary-colors" value="2">Red</option>
+                    <option id="primary-colors" value="3">Black</option>
+                    <option id="primary-colors" value="4">Yellow</option>
+                    <option id="primary-colors" value="5">Pink</option>
+                    <option id="primary-colors" value="6">Grey</option>
+                </select>
+                <div id="Button">
+                    <button onclick="changePri()" class="btn btn-primary w-20 h-20" id="show">Show</button>
+                    <button type="button" onclick="resetColor()"class="btn btn-warning w-20 h-20" id="reset">Reset</button>
+                    <script src="js/main.js"></script>
+                </div>
+                
+            </table>
+        </div>
+    </div>
+
+   
+    
+    
+</body>
+</html>
+
